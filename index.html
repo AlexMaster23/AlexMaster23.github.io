@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>25 Days of Loving You • Advent Calendar</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+
+  <div class="snow-container"></div>
+
+  <header>
+    <h1>25 Days of Loving You</h1>
+    <p class="subtitle">A little surprise every day until Christmas • For my everything ❤️</p>
+  </header>
+
+  <div class="calendar" id="calendar"></div>
+
+  <!-- Modal -->
+  <div class="modal" id="modal">
+    <div class="modal-content">
+      <button class="close" id="close-modal">×</button>
+      <h2 class="day-title" id="modal-day">December 1</h2>
+      <div class="message" id="modal-message"></div>
+      <div class="photos" id="modal-photos"></div>
+    </div>
+  </div>
+
+  <!-- Secret note popup (long-press) -->
+<div class="secret-note" id="secret-note"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
